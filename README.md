@@ -10,8 +10,6 @@ The project contains the implementation of different methods for pricing of deri
 
 - *getCapPowerCallPriceByPDE* : allows to price cap power call options with payoff $max(Cap,(S_T^i-K))$ using partial differential equations approach and numerical schemes. The calculations are made for two cases - natural variables and variables transformed to heat equation coordinates.
 
-The project contains all code required to reproduce the results of my research on Bayesian estimation of volatility and structural parameters of continuous GARCH model with Markov Chain Monte Carlo (MCMC) methods. The structure of the repository, e.g. extracting functionalities into different functions allows a user to easily calibrate the continuous GARCH model and estimate the volatility process for any time series. Additionally, functions simulating artificial data from considered models are included.
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
